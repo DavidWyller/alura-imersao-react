@@ -69,7 +69,7 @@ export default function Home() {
         </Footer>
      </QuizContainer>
      <GitHubCorner projectUrl="https://github.com/DavidWyller"/>
-    </QuizBackground>git add .
+    </QuizBackground>
     
   );
 }
