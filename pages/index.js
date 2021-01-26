@@ -44,7 +44,7 @@ export default function Home() {
         <Widget>
           <Widget.Header>
             <h1>
-              QUIZ do David v2
+              QUIZ do David v3
             </h1>
           </Widget.Header>
           <Widget.Content>
