@@ -54,7 +54,7 @@ export default function Home() {
         <Widget>
           <Widget.Header>
             <h1>
-              QUIZ - David v4
+              QUIZ X
             </h1>
           </Widget.Header>
           <Widget.Content>
@@ -86,10 +86,11 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>
-              QUIZ da galera
+              {/* OUTROS QUIZES PÚBLICOS */}
+              ATENÇÃO:
             </h1>
             <p>
-              Lorem ipsum dolor sit amet..
+              Esse site está em fase de desenvolvimento.
             </p>
           </Widget.Content>
         </Widget>
