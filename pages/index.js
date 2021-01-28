@@ -9,27 +9,10 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
-// const Title = styled.h1`
-//   font-size: 50px;
-//   color: ${({ theme }) => theme.colors.primary};
-// `
-// function Title(props){ //propcidades / propriedades
-//   return (
-//     <h1>
-//       {props.children}
-//     </h1>
-//   )
-// }
-
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
-
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -65,20 +48,15 @@ export default function Home() {
               // router manda para a aproxima página
             }}
             >
-              <input
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
                 placeholder="Digite o seu nome"
-                onChange={function (infosDoEvento) {
-                  // console.log(infosDoEvento.target.value);
-                  // State
-                  // name = infosDoEvento.target.value;
-                  setName(infosDoEvento.target.value);
-                }}
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Vamos começar,&nbsp;
-                {name}
-                !
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Clique aqui para iniciar, ${name}!`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
