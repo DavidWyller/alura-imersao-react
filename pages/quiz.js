@@ -134,7 +134,12 @@ export default function QuizPage() {
 
         {screenState === screenStates.LOADING && <LoadingWidget />}
 
-        {screenState === screenStates.RESULT && <div>Você terminou de responder o Quiz(em desenvolvimento)! Parabéns! :)</div>}
+        {screenState === screenStates.RESULT
+        && (
+        <div>
+          Você terminou de responder o Quiz(em desenvolvimento)!
+        </div>
+        )}
 
       </QuizContainer>
     </QuizBackground>
