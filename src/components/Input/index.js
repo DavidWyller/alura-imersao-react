@@ -22,6 +22,7 @@ export default function Input({ onChange, placeholder }) {
       <InputBase
         placeholder={placeholder}
         onChange={onChange}
+        // Teste
       />
     </div>
   );
