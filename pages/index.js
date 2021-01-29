@@ -37,7 +37,7 @@ export default function Home() {
         <Widget>
           <Widget.Header>
             <h1>
-              QUIZ X
+              QUIZ - CONHECIMENTOS
             </h1>
           </Widget.Header>
           <Widget.Content>
@@ -68,8 +68,12 @@ export default function Home() {
               ATENÇÃO:
             </h1>
             <p>
-              Esse site está em fase de desenvolvimento.
+              Esse site está em fase de desenvolvimento e todo o seu conteúdo está sujeito a sofrer alterações.
             </p>
+            <p>
+              Última alteração em 28/01/2021
+            </p>
+
           </Widget.Content>
         </Widget>
         <Footer />
