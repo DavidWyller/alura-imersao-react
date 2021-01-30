@@ -5,7 +5,7 @@
     "questions": [
       {
         "image": "https://media1.giphy.com/media/l0MYSryDg63YEmXVS/giphy.gif",
-        "title": "Questão 1",
+        "title": "Questão 1 - Veículo",
         "description": "O que é representado na imagem?",
         "answer": 1,
         "alternatives": [
@@ -17,7 +17,7 @@
       },
       {
         "image": "https://i.makeagif.com/media/12-13-2015/mS3szD.gif",
-        "title": "Questão 2",
+        "title": "Questão 2 - Bandeira",
         "description": "Que país essa bandeira representa?",
         "answer": 3,
         "alternatives": [
@@ -27,10 +27,114 @@
            "Austrália",
            "Inglaterra"
         ]
+      },
+      {
+        "image": "https://ciencia.ufpr.br/portal/wp-content/uploads/2020/12/Hnet.com-image.gif",
+        "title": "Questão 3 - Álcool",
+        "description": "Qual é o tipo de álcool mais apropriado para higienizar as mãos durante a pandemia da Covid-19?",
+        "answer": 2,
+        "alternatives": [
+          "Álcool 46° INPM",
+          "Álcool 61° INPM",
+          "Álcool 70° INPM",
+          "Álcool 90° INPM"
+        ]
+      },
+      {
+        "image": "https://i0.wp.com/www.crowd4test.com/blog/wp-content/uploads/2019/05/ImpishDiscreteGonolek-size_restricted.gif?fit=1587%2C793&ssl=1",
+        "title": "Questão 4 - Android",
+        "description": "Após a versão 9 do Android, a Google encerrou a tradição de colocar nome de doces em cada versão do Android,  como Android 6 que era também chamado de Android Marshmallow. Selecione a opção com o nome do último doce usado na última versão do Android que ainda tinha isso.",
+        "answer": 1,
+        "alternatives": [
+          "Android KitKat",
+          "Android Pie",
+          "Android Sandwich",
+          "Android Oreo"
+        ]
+      },
+      {
+        "image": "https://www.unifor.br/documents/3649147/0/nazareconfusamatematica.gif/df9a231e-e142-bfd8-49a0-6eed6239aca0?t=1598451223932",
+        "title": "Questão 5 - Valor de X",
+        "description": " 0507 → 1025 → 2031 → X → 8127",
+        "answer": 3,
+        "alternatives": [
+          "2538",
+          "3056",
+          "3563",
+          "4063",
+          "5269"
+        ]
+      },
+      {
+        "image": "https://media0.giphy.com/media/WU1UF5Ff5ERagdopUX/giphy.gif",
+        "title": "Questão 6 - Lâmpada Incandescente",
+        "description": "Em toda nossa história, tivemos milhares de ivenções que sempre serão lembradas. Entre elas existe a Lâmpada Incandescente de 1879. Selecione o inventor dela.",
+        "answer": 0,
+        "alternatives": [
+          "Thomas Edison",
+          "Albert Einstein",
+          "Henry Ford",
+          "Steve Jobs",
+          "Guglielmo Marconi"
+        ]
+      },
+      {
+        "image": "https://media0.giphy.com/media/WU1UF5Ff5ERagdopUX/giphy.gif",
+        "title": "Questão 7 - Velocidade",
+        "description": "Qual é a velocidade da luz?",
+        "answer": 1,
+        "alternatives": [
+          "199 792 458 m/s",
+          "299 792 458 m/s",
+          "300 000 000 m/s",
+          "399 792 458 m/s"
+        ]
+      },
+      {
+        "image": "https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2018/03/banner_doacao-de-sangue_agencia_brasilia.gif",
+        "title": "Questão 8 - Doador Universal",
+        "description": "As pessoas de qual tipo sanguíneo são consideradas doadores universais?",
+        "answer": 3,
+        "alternatives": [
+          "Tipo AB+",
+          "Tipo AB-",
+          "Tipo O+",
+          "Tipo O-",
+          "Tipo B-"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/a8/ed/98/a8ed98656d5705c412404fd9d65c64ce.gif",
+        "title": "Questão 9 - Olimpíada",
+        "description": "Onde e quando foi realizada a primeira edição dos Jogos Olímpicos modernos?",
+        "answer": 4,
+        "alternatives": [
+          "Saint Louis, 1888",
+          "Paris, 1900",
+          "Londres, 1892",
+          "Estocolmo, 1912",
+          "Atenas, 1896"
+        ]
+      },
+      {
+        "image": "https://lh3.googleusercontent.com/proxy/Jd_s_hakyS4TdLXH7hPBwX1_TPPNfp1C4xRHrq_i6Cte0d-DzdhCo-ts_rsNRF6cMsudkkKSRqE7IG8NDTnoLV-UWmf_m0edr9z2XoWi9XP_r0KPdLVQZUtFWuqr70CBIjgA8CDaM_mCtkxr52ZiLyTljvF7M-o9IrALXtU78_1dI3c5H30emftXKdA",
+        "title": "Questão 10 - Som",
+        "description": "Qual a unidade que mede a intensidade do som?",
+        "answer": 1,
+        "alternatives": [
+          "Hertz",
+          "Decibel",
+          "Quilowatt-hora",
+          "Frequência",
+          "Volt"
+        ]
       }
+      
     ],
     "external": [
-      ""
+      "https://aluraquiz-base.alura-challenges.vercel.app/",
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {

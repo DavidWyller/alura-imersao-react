@@ -1,13 +1,13 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import Button from '../src/components/Button';
-import AlternativesForm from '../src/components/AlternativesForm';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import Button from '../../src/components/Button';
+import AlternativesForm from '../../src/components/AlternativesForm';
 
 function ResultWidget({ results }) {
   return (
@@ -74,7 +74,7 @@ function QuestionWidget({
     <Widget>
       <Widget.Header>
         <h3>
-          {`Pergunta 
+          {`Questão 
           ${questionIndex + 1}
           de 
           ${totalQuestions}`}
@@ -108,7 +108,7 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 2 * 1000);
+            }, 1.1 * 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -189,6 +189,9 @@ export default function QuizPage() {
 
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>Quiz</title>
+      </Head>
       <QuizContainer>
         <QuizLogo />
 
