@@ -1,12 +1,12 @@
 {
     "bg": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_1065835688_386482.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Quiz Conhecimentos",
+    "description": "Teste os seus conhecimentos sobre assuntos aleatórios!",
     "questions": [
       {
         "image": "https://media1.giphy.com/media/l0MYSryDg63YEmXVS/giphy.gif",
         "title": "Questão 1 - Veículo",
-        "description": "O que é representado na imagem?",
+        "description": "Qual veículo é representado na imagem?",
         "answer": 1,
         "alternatives": [
           "Bicicleta",
