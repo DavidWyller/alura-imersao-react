@@ -1,5 +1,5 @@
-/* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types */
+/* eslint-disable linebreak-style */
 import React from 'react';
 // import db from '../../../db.json';
 import Widget from '../../components/Widget';
