@@ -1,12 +1,12 @@
 {
     "bg": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_1065835688_386482.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Quiz Conhecimentos",
+    "description": "Teste os seus conhecimentos sobre assuntos aleatórios!",
     "questions": [
       {
         "image": "https://media1.giphy.com/media/l0MYSryDg63YEmXVS/giphy.gif",
         "title": "Questão 1 - Veículo",
-        "description": "O que é representado na imagem?",
+        "description": "Qual veículo é representado na imagem?",
         "answer": 1,
         "alternatives": [
           "Bicicleta",
@@ -68,7 +68,7 @@
       {
         "image": "https://media0.giphy.com/media/WU1UF5Ff5ERagdopUX/giphy.gif",
         "title": "Questão 6 - Lâmpada Incandescente",
-        "description": "Em toda nossa história, tivemos milhares de ivenções que sempre serão lembradas. Entre elas existe a Lâmpada Incandescente de 1879. Selecione o inventor dela.",
+        "description": "Em toda nossa história, tivemos milhares de invenções que sempre serão lembradas. Entre elas existe a Lâmpada Incandescente de 1879. Selecione o inventor dela.",
         "answer": 0,
         "alternatives": [
           "Thomas Edison",
@@ -79,7 +79,7 @@
         ]
       },
       {
-        "image": "https://media0.giphy.com/media/WU1UF5Ff5ERagdopUX/giphy.gif",
+        "image": "https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2018/10/acelerador-de-particulas-brasileiro.gif",
         "title": "Questão 7 - Velocidade",
         "description": "Qual é a velocidade da luz?",
         "answer": 1,
@@ -117,7 +117,7 @@
         ]
       },
       {
-        "image": "https://lh3.googleusercontent.com/proxy/Jd_s_hakyS4TdLXH7hPBwX1_TPPNfp1C4xRHrq_i6Cte0d-DzdhCo-ts_rsNRF6cMsudkkKSRqE7IG8NDTnoLV-UWmf_m0edr9z2XoWi9XP_r0KPdLVQZUtFWuqr70CBIjgA8CDaM_mCtkxr52ZiLyTljvF7M-o9IrALXtU78_1dI3c5H30emftXKdA",
+        "image": "https://i.pinimg.com/originals/92/2d/05/922d051cfa11eaccaa7da4fd2cc25a10.gif",
         "title": "Questão 10 - Som",
         "description": "Qual a unidade que mede a intensidade do som?",
         "answer": 1,
